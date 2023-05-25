@@ -1,17 +1,68 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&family=Orbitron&display=swap" rel="stylesheet">
+ 
+  <title>Rock, Paper, Scissors</title>
 </head>
-<body style="text-align: center; font-family: Arial, Helvetica, sans-serif; margin: 15%;">
-    <button class="button" id="rock">Rock</button>
-    <button class="button" id="paper">Paper</button>
-    <button class="button" id="scissor">Scissor</button>
-    <h2></h2>
+<body style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+    
+  <h1> Rock, Paper, Scissors</h1>
+  <div class ="enddiv" ></div>
+  <h4 style="font-family: Montserrat, sans-serif;"> Pick your weapon!</h4>
+  <div class="container" style="display: flex; justify-content: space-between;">
+      
+          <div id="pscore"></div>
+        
+          <div id="cscore"></div>
+     
+   </div>
 
-<script src="myscript.js"></script>    
+    <div class="container" style="display: flex; flex-direction: row; justify-content: space-around;">
+    
+        <div style="display: flex; flex-direction: column;">
+            <div>
+                <img class="button" src="./images/rock.png" name="rock">
+              </div>
+              <div >
+                <img class="button" src="./images/Paper.png" name="paper">
+              </div>
+              <div >
+                <img class="button" src="./images/scissors.png" name="scissors">
+              </div>
+        
+        </div>
+
+        <div >
+            <div >
+              <div class="photo"></div>
+            </div>
+          </div>
+      
+    </div>
+
+
+    </div>
+
+    <div class="container" style="display: flex; justify-content: center">
+       
+              <div id="info" class ="hide"></div>
+           
+              <div class="lastround"></div>
+           
+    </div>
+   
+  
+    
+
+  
+  <script src="myscript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

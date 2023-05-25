@@ -1,0 +1,134 @@
+
+  body {
+    /* background: linear-gradient(45deg, #ff6b6b, #c0392b); */
+    background: radial-gradient(circle, #3a1c71, #d76d77, #ffaf7b);
+    color: #fff;
+    
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .container img.button {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .container img.button:hover {
+    transform: scale(1.5);
+  }
+  
+  #pscore, #cscore {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #pscore {
+    text-align: left;
+    
+  }
+  
+  #cscore {
+    text-align: right;
+    
+  }
+  
+  #info {
+    margin-top: 0;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  p{
+    margin-top: 0;
+  }
+  
+  
+  
+  .computer-choice {
+    margin-top: 20px;
+    
+  }
+  
+  .computer-choice-img {
+    width: 150px;
+    height: 160px;
+    margin-top: 10px;
+  }
+
+
+.gameDiv {
+   
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+}
+    
+.gameDiv h3 {
+      background-color: #fff;
+      color: black;
+      width: 300px;
+      max-width: 80%;
+      margin: 100px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  
+  
+.gameDiv button {
+    
+    border: none;
+    color: rgb(5, 121, 38);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .gameDiv button:hover {
+    background-color: rgb(160, 238, 127);
+  }
+  
+.result {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #c9e9e8; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+ .help{
+  display: none;
+ }
