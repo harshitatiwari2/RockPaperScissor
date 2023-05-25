@@ -49,10 +49,10 @@ function addRoundInfo() {
    
     if (playerScore === 5) {
         info.classList.add('result');
-        info.innerHTML = '<p>&#127882;You won the game! Cheers.&#127882;</p>';
+        info.innerHTML = '<p>You won the game! Cheers.&#127882;</p>';
       } else  if (cpuscore === 5) {
         info.classList.add('result');
-        info.innerHTML = '<p>&#128531; Oh no! You lost the game. &#128531; </p>';
+        info.innerHTML = '<p>Oh no! You lost the game. &#128531; </p>';
       }
     
     
@@ -89,7 +89,7 @@ function addRoundInfo() {
             });
 
             console.log("Delayed execution after 3 seconds");
-          }, 4000);
+          }, 3000);
 
    
       }
